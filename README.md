@@ -18,5 +18,4 @@ A simple and responsive Random Quote Generator built with HTML, CSS, and JavaScr
 - JavaScript
 
 ## Demo
-You can see a live demo [here](#) *(replace # with your GitHub Pages link if available)*.
-
+You can see a live demo here (https://adam88791.github.io/Random-Quote-Generator-/)
