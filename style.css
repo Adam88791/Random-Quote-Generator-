@@ -1,0 +1,146 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 155, 218);
+    font-family: Arial, sans-serif;
+}
+
+.result {
+    background-color: #fff;
+    max-width: 350px;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.result button {
+    background-color: rgb(65, 213, 179);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.result button:hover {
+    background-color: rgb(45, 189, 158);
+    color: white;
+    cursor: pointer;
+}
+
+.result h1 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+i {
+    color: red;
+    margin: 0 10px;
+}
+
+i.hide {
+    display: none;
+}
+
+#quote {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    max-width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.result #author {
+    display: block;
+    color: green;
+    margin: 15px 0;
+    border-bottom: 1px solid black;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(145, 197, 246);
+    font-family: Arial, sans-serif;
+}
+
+.result {
+    background: #fff;
+    width: 100%;
+    margin: 15px;
+    max-width: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow:     0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.result h1 {
+    margin-bottom: 15px;
+    margin-top: 25px;
+    color: #333;
+}
+
+#quote {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    max-width: 200px;
+
+}
+
+#author {
+    display: block;
+    margin: 15px 0;
+    color: green;
+    border-bottom: 1px solid #000;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background: rgb(65, 213, 179);
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(45, 189, 158);
+    color: #fff;
+}
+
+i {
+    margin: 0 10px;
+    color: red;
+}
+
+.hide {
+    display: none;
+}
